@@ -5,3 +5,10 @@ age = deathdate - birthdate
 
 print("Name: " + name)
 print("Age: " + str(age))
+print("Age: " + str(age))
+
+
+
+
+
+
