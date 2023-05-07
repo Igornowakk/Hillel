@@ -1,11 +1,15 @@
 name = input("Enter name")
-birthdate = int(input("Enter date of birth: YYYY"))
-deathdate = int(input("Enter date of death: YYYY"))
-age = deathdate - birthdate
+birthyear = int(input("Enter the year of birth: "))
+birthmonth = int(input("Enter the month of birth: "))
+birthdate = int(input("Enter the date of birth: "))
+deathyear = int(input("Enter the year date of death: "))
+deathmonth = int(input("Enter the month date of death: "))
+deathdate = int(input("Enter the date of death: "))
+age = deathyear - birthyear
 
 print("Name: " + name)
 print("Age: " + str(age))
-print("Age: " + str(age))
+
 
 
 
